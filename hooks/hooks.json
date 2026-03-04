@@ -1,0 +1,10 @@
+{
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "matcher": "Bash(git commit*)",
+      "command": "hooks/ship-gate.sh",
+      "async": false
+    }
+  ]
+}
