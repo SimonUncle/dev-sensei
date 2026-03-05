@@ -61,16 +61,14 @@ You found it yourself. You'll recognize this pattern forever.
 
 ### Claude Code
 ```bash
-# Clone the repo
 git clone https://github.com/SimonUncle/dev-sensei.git
-
-# Install as Claude Code plugin
 cd dev-sensei
-claude --plugin-dir .
+./install.sh
 ```
 
-> **Tip:** To make it permanent, you can register the plugin in `~/.claude/plugins/installed_plugins.json`.
-> See [.codex/INSTALL.md](.codex/INSTALL.md) for detailed manual setup.
+That's it. Restart Claude Code and the skills are active.
+
+To uninstall: `./uninstall.sh`
 
 ### Codex
 See [.codex/INSTALL.md](.codex/INSTALL.md) for manual setup instructions.
