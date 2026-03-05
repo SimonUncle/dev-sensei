@@ -62,11 +62,15 @@ You found it yourself. You'll recognize this pattern forever.
 ### Claude Code
 ```bash
 # Clone the repo
-git clone https://github.com/gim-yujin/dev-sensei.git
+git clone https://github.com/SimonUncle/dev-sensei.git
 
 # Install as Claude Code plugin
-claude plugin add ./dev-sensei
+cd dev-sensei
+claude --plugin-dir .
 ```
+
+> **Tip:** To make it permanent, you can register the plugin in `~/.claude/plugins/installed_plugins.json`.
+> See [.codex/INSTALL.md](.codex/INSTALL.md) for detailed manual setup.
 
 ### Codex
 See [.codex/INSTALL.md](.codex/INSTALL.md) for manual setup instructions.
