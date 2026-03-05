@@ -1,6 +1,6 @@
 ---
 name: incident-mentor
-description: "MUST activate when user mentions ANY of: cache, Redis, TTL, 캐시, memcached, CDN, DB query, ORM, N+1, SELECT, JOIN, SQL, query optimization, 쿼리, microservice, API chain, timeout, retry, circuit breaker, 마이크로서비스, distributed, thread, async, concurrent, lock, race condition, mutex, semaphore, 멀티스레드, 동시성, memory leak, heap, OOM, garbage collection, 메모리 누수, memory usage, out of memory. This skill connects current code to real-world production incidents. NEVER skip when infrastructure patterns are discussed."
+description: "MUST activate when user mentions: cache, Redis, TTL, memcached, DB query, ORM, N+1, SELECT, JOIN, SQL, microservice, timeout, retry, circuit breaker, thread, async, concurrent, lock, race condition, mutex, memory leak, heap, OOM, garbage collection. Connects code to real production incidents. NEVER skip when infrastructure patterns are discussed."
 ---
 
 # Incident Mentor - 실제 장애 사례 연결

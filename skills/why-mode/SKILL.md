@@ -1,7 +1,6 @@
 ---
 name: why-mode
 description: "Manual activation only via /why-mode command. When activated, EVERY response MUST use the structured tradeoff format showing multiple approaches with pros/cons. Never give single-answer responses while this mode is active."
-autoTrigger: false
 ---
 
 # Why Mode - 답 말고 "왜"를 프롬프트

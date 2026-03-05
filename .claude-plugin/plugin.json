@@ -1,16 +1,6 @@
 {
   "name": "dev-sensei",
   "version": "1.0.0",
-  "description": "Socratic senior dev mentor that transforms AI from answer machine to learning catalyst. Based on '5 strategies from AI is Making Junior Devs Useless'.",
-  "author": "gim-yujin",
-  "license": "MIT",
-  "keywords": ["junior", "education", "mentoring", "debugging", "code-review", "socratic"],
-  "skills": [
-    "skills/struggle-gate/SKILL.md",
-    "skills/why-mode/SKILL.md",
-    "skills/pattern-recognizer/SKILL.md",
-    "skills/incident-mentor/SKILL.md"
-  ],
-  "hooks": "hooks/hooks.json",
-  "platforms": ["claude-code", "codex"]
+  "description": "Socratic senior dev mentor that transforms AI from answer machine to learning catalyst",
+  "author": { "name": "gim-yujin" }
 }
